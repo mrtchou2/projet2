@@ -1,14 +1,5 @@
 /* PARAMETRES GENERAUX DE POLICE */
 
-@font-face {
-  font-family: "Raleway";
-  src: url("static/Raleway-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Raleway-thin";
-  src: url("static/Raleway-Thin.ttf");
-}
 
 h1,
 h2,

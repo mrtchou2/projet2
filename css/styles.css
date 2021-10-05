@@ -31,7 +31,7 @@ p {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  
+  justify-content: space-between;
 }
 
 .headernav {
@@ -307,6 +307,7 @@ input {
   width: 32%;
   padding: 20px;
   display: flex;
+  flex-direction: column;
 }
 
 .hebergementspop {
@@ -476,7 +477,7 @@ footer {
   max-width: 100%;
   padding: 0 10px;
   box-sizing: border-box;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .interieurblockFooter {
@@ -685,6 +686,7 @@ footer {
 
   .blockFooter {
     display: flex;
+    flex-direction: column;
   }
 
   .interieurblockFooter {

@@ -25,11 +25,13 @@ p {
 
 /* le conteneur */
 
+
 .containerheader {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  
 }
 
 .headernav {
@@ -474,6 +476,7 @@ footer {
   max-width: 100%;
   padding: 0 10px;
   box-sizing: border-box;
+  flex-direction: column;
 }
 
 .interieurblockFooter {
@@ -517,8 +520,9 @@ footer {
   }
 
   .containerheader {
-    display: grid;
+    display: flex;
     padding-top: 5px;
+    flex-wrap: wrap;
   }
 
   .headernav {
@@ -575,7 +579,9 @@ footer {
   /* FILTRES */
 
   .filtres {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .titrefiltres {
@@ -607,7 +613,7 @@ footer {
     background-color: white;
     order: 2;
     width: 100%;
-    margin: 0%;
+    margin-top: 11%;
     padding: 0;
   }
 
@@ -635,18 +641,21 @@ footer {
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-bottom: 11%;
     order: 1;
-    display: grid;
+    display: flex;
+    flex-direction: column;
   }
 
   /* PARAMETRES ACTIVITES */
 
   .containerActivites {
-    display: grid;
+    display: flex;
     height: auto;
     margin-bottom: 25px;
     justify-content: normal;
-    -moz-margin-start: -60px;
+   flex-direction: column;
+   flex-wrap: nowrap;
   }
 
   .blocActivite {
@@ -675,7 +684,7 @@ footer {
   /* FOOTER*/
 
   .blockFooter {
-    display: grid;
+    display: flex;
   }
 
   .interieurblockFooter {
@@ -752,7 +761,7 @@ footer {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    display: grid;
+    display: flex;
   }
 
   footer {
@@ -762,6 +771,6 @@ footer {
 
 @media (min-width: 1025px) and (max-width: 1600px) /* GRAND ECRAN */ {
   #pluspopulaires {
-    display: grid;
+    display: flex;
   }
 }

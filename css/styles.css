@@ -105,7 +105,6 @@ button {
   border-radius: 0px 10px 10px 0px;
   font-weight: bold;
   font-family: "Raleway", "Sans serif";
-  font-size: 1em;
   cursor: pointer;
   margin: 0 -50px;
 }
@@ -113,7 +112,7 @@ button {
 .iconemap {
   font-size: 25px;
   background-color: #f2f2f2;
-  border-radius: 1rem 0 0 1rem;
+  border-radius: 15px 0 0 15px;
   padding: 10px 10px;
   width: 30px;
   text-align: center;
@@ -128,7 +127,7 @@ input {
   border-left: none;
   border-top: #f2f2f2 1px solid;
   border-bottom: #f2f2f2 1px solid;
-  padding: 0 1.5em;
+  padding: 0 15px;
   width: 60%;
   height: 50px;
   font-size: 15px;
@@ -147,18 +146,18 @@ input {
   display: none;
 }
 
-/* Mise en forme des filtres*/
+/*filtres*/
 
 .titrefiltres {
-  font-size: 1.3em;
+  font-size: 15px;
   margin: 0 20px 0 0;
 }
 
 .titre {
   font-family: "Raleway", "Sans serif";
   font-weight: bold;
-  padding-right: 1.5em;
-  padding-left: 0.5em;
+  padding-right: 15px;
+  padding-left: 5px;
   cursor: pointer;
 }
 
@@ -173,9 +172,9 @@ input {
   display: flex;
   align-items: center;
   width: auto;
-  margin-right: 2em;
+  margin-right: 15px;
   border: 2px solid #d9d9d9;
-  border-radius: 2em;
+  border-radius: 37px;
   font-weight: bold;
 }
 
@@ -186,7 +185,7 @@ input {
 
 .imagefiltre {
   padding: 15px 15px;
-  border-radius: 50%;
+  border-radius: 100%;
   background-color: #d9d9d9;
   cursor: pointer;
 }
@@ -244,26 +243,16 @@ input {
 
 .hotel {
   width: 30%;
-  width: calc(33.3% - 10px);
   background: white;
   border-radius: 20px;
   padding: 5px;
   box-sizing: border-box;
   margin: 0 5px 20px 5px;
   box-shadow: 0 5px 16px #0000002e;
-  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* Internet Explorer 9 */
-  -o-transition: all 1s ease; /* Opera */
   transition: all 1s ease;
 }
 
 .hotel:hover {
-  -webkit-transform: scale(1.05); /* Safari et Chrome */
-  -moz-transform: scale(1.05); /* Firefox */
-  -ms-transform: scale(1.05); /* Internet Explorer 9 */
-  -o-transform: scale(1.05); /* Opera */
   transform: scale(1.05);
 }
 

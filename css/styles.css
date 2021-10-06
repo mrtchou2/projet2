@@ -444,13 +444,13 @@ input {
 }
 
 .Activite5 {
-  margin: 0px 0px 52px;
-  height: 44%;
+  margin: 0px 0px 47px;
+  height: 46%;
 }
 
 .Activite6 {
   margin: 0px 0px 42px;
-  height: 44%;
+  height: 45%;
 }
 
 
@@ -475,7 +475,7 @@ footer {
 
 .footerTitre {
   display: block;
-  font-size: 1.3em;
+  font-size: 20px;
   font-weight: bold;
 }
 

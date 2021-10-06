@@ -14,17 +14,12 @@ p {
   font-family: "Raleway";
 }
 
-/* PARAMETRES DE LA PAGE */
-
 #blocpage {
   margin: auto;
   width: 98%;
 }
 
-/* PARAMETRES DU HEADER */
-
-/* le conteneur */
-
+/*HEADER */
 
 .containerheader {
   display: flex;
@@ -83,8 +78,6 @@ a {
 .inscrire {
   padding-left: 28px;
 }
-
-/* le texte d'accroche */
 
 .subtext {
   margin-bottom: -35px;
@@ -198,7 +191,7 @@ input {
   color: black;
 }
 
-/* la ligne information */
+/*info*/
 
 .info {
   display: flex;
@@ -219,14 +212,14 @@ input {
   padding-left: 10px;
 }
 
-/* PARAMETRES HEBERGEMENT ET POPULAIRES */
+/*HEBERGEMENT ET POPULAIRES */
 
 .hebergementetpop {
   display: flex;
   margin: 25px 0 50px;
 }
 
-/* PARAMETRES HEBERGEMENTS */
+/*HEBERGEMENTS */
 
 #Hebergements {
   background-color: #f2f2f2;
@@ -288,7 +281,7 @@ input {
   padding-left: 8px;
 }
 
-/* PARAMETRES HEBERGEMENTS POPULAIRES */
+/*POPULAIRES */
 
 #pluspopulaires {
   background-color: #f2f2f2;
@@ -312,21 +305,11 @@ input {
   margin: 0px 0px 20px 0px;
   height: 145px;
   box-shadow: 0 5px 16px #0000002e;
-  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* Internet Explorer 9 */
-  -o-transition: all 1s ease; /* Opera */
   transition: all 1s ease;
 }
 
-.hotelpop:hover {
-  /* L'image est zoomé au survol */
-
-  -webkit-transform: scale(1.15); /* Safari et Chrome */
-  -moz-transform: scale(1.15); /* Firefox */
-  -ms-transform: scale(1.15); /* Internet Explorer 9 */
-  -o-transform: scale(1.15); /* Opera */
+.hotelpop:hover 
+{
   transform: scale(1.15);
 }
 
@@ -351,7 +334,7 @@ input {
 }
 
 .grey {
-  color: lightgrey;
+  color: rgb(218, 212, 212);
 }
 
 .hotelpop h3 {
@@ -366,7 +349,7 @@ input {
 .etoilespop {
   margin: 3px;
 }
-/* PARAMETRES DE LA SECTION ACTIVITE */
+/* ACTIVITE */
 
 #Activite {
   width: 80%;
@@ -486,13 +469,15 @@ footer {
   font-weight: 500;
 }
 
-/*RESPONSIVE MOBILES*/
 
-@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
-  /* PARAMETRES GENERAUX */
+
+
+
+/*MOBILES*/
+@media (min-width: 300px) and (max-width: 767px) 
+{
 
   h2 {
-    /*font-family: 'Raleway-Semibold';*/
     font-size: 20px;
     font-weight: bold;
   }
@@ -500,8 +485,6 @@ footer {
   H3 {
     font-size: 16px;
   }
-
-  /* HEADER */
 
   header {
     margin: 0;
@@ -519,7 +502,7 @@ footer {
     margin-right: 0;
   }
 
-  /* HEADER MENU */
+  /*MENU */
 
   .inscrire {
     position: ABSOLUTE;
@@ -549,8 +532,6 @@ footer {
     border-top: none;
     padding-bottom: 5px;
   }
-
-  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
 
   .loupelogo i {
     display: inline;
@@ -596,7 +577,7 @@ footer {
     flex-direction: column;
   }
 
-  /* PARAMETRES HEBERGEMENTS */
+  /*HEBERGEMENTS */
 
   #Hebergements {
     width: 100%;
@@ -625,8 +606,6 @@ footer {
     font-size: 14px;
   }
 
-  /* PARAMETRES HEBERGEMENTS POPULAIRES */
-
   #pluspopulaires {
     width: 100%;
     margin: 0;
@@ -637,7 +616,7 @@ footer {
     flex-direction: column;
   }
 
-  /* PARAMETRES ACTIVITES */
+  /*ACTIVITES */
 
   .containerActivites {
     display: flex;
@@ -683,10 +662,16 @@ footer {
   }
 }
 
-/* RESPONSIVE TABLETTE */
 
-@media (min-width: 768px) and (max-width: 1024px) /* TABLETTE */ {
-  /* TEXTE DU HEADER */
+
+
+
+
+
+
+/* TABLETTE */
+@media (min-width: 768px) and (max-width: 1024px)
+{
   .subtext {
     text-align: center;
     margin-bottom: 15px;
@@ -725,7 +710,7 @@ footer {
 
   .hebergementetpop {
     margin: 25px 0 50px;
-    display: FLEX;
+    display: flex;
     flex-direction: column;
   }
 
@@ -734,18 +719,18 @@ footer {
     padding-bottom: 5px;
   }
 
-  /* PARAMETRES HEBERGEMENTS */
+  /* HEBERGEMENTS */
 
   #Hebergements {
     width: 100%;
     position: relative;
     left: 50%;
-    transform: translateX(-50%); /*centré dans l'élément parent*/
+    transform: translateX(-50%);
     margin-bottom: 20px;
     border-radius: 0;
   }
 
-  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+  /* POPULAIRES */
 
   #pluspopulaires {
     width: 100%;
@@ -757,11 +742,5 @@ footer {
 
   footer {
     border-radius: 0;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1600px) /* GRAND ECRAN */ {
-  #pluspopulaires {
-    display: flex;
   }
 }

@@ -1,3 +1,4 @@
+
 h1,
 h2,
 h3,
@@ -13,17 +14,13 @@ p {
   font-family: "Raleway";
 }
 
-/* PARAMETRES DE LA PAGE */
 
 #blocpage {
   margin: auto;
   width: 98%;
 }
 
-/* PARAMETRES DU HEADER */
-
-/* le conteneur */
-
+/* HEADER */
 
 .containerheader {
   display: flex;
@@ -82,8 +79,6 @@ a {
 .inscrire {
   padding-left: 28px;
 }
-
-/* le texte d'accroche */
 
 .subtext {
   margin-bottom: -35px;
@@ -443,13 +438,13 @@ input {
 }
 
 .Activite5 {
-  margin: 0px 0px 47px;
-  height: 46%;
+  margin: 0px 0px 52px;
+  height: 44%;
 }
 
 .Activite6 {
   margin: 0px 0px 42px;
-  height: 45%;
+  height: 44%;
 }
 
 
@@ -474,7 +469,7 @@ footer {
 
 .footerTitre {
   display: block;
-  font-size: 20px;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
@@ -536,6 +531,7 @@ footer {
 
   nav ul {
     border-bottom: 2px solid #f2f2f2;
+    display: contents;
   }
 
   header ul li {
